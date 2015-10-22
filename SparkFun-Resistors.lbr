@@ -244,6 +244,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.6002" y1="0.6858" x2="1.6002" y2="-0.6858" width="0.0508" layer="39"/>
 <wire x1="1.6002" y1="-0.6858" x2="-1.6002" y2="-0.6858" width="0.0508" layer="39"/>
 <wire x1="-1.6002" y1="-0.6858" x2="-1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<rectangle x1="-0.1905" y1="-0.3048" x2="0.1905" y2="0.3048" layer="21"/>
 </package>
 <package name="AXIAL-0.3">
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
@@ -311,7 +312,7 @@ chip</description>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
+<rectangle x1="-0.1905" y1="-0.381" x2="0.1905" y2="0.381" layer="21"/>
 </package>
 <package name="0402-RES">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1286,7 +1287,9 @@ SFE parts COM-10855 (330), COM-10856 (10K)&lt;br&gt;</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08787"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4075,7 +4078,7 @@ SFE parts COM-10855 (330), COM-10856 (10K)&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2K_LINEAR_POT_SMD">
+<deviceset name="10K_LINEAR_POT_SMD">
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="0"/>
 </gates>
